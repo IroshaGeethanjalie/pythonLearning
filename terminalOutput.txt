@@ -1,0 +1,126 @@
+C:\Users\file>E:\Python312\python.exe C:\Users\file\OneDrive\Desktop\StudentRecordManager\student_manager.py
+
+--- Student Record Manager ---
+1. Add Student
+2. Search Student
+3. Update Student
+4. Display All Students
+5. Exit
+Enter your choice: 1
+Enter Student ID: sc12415
+Enter Name: irosha
+Enter Age: 25
+Enter Grade: A
+Student added successfully!
+
+--- Student Record Manager ---
+1. Add Student
+2. Search Student
+3. Update Student
+4. Display All Students
+5. Exit
+Enter your choice: 2
+Enter Student ID to search: sc12415
+🎓 Student Found: {'name': 'irosha', 'age': '25', 'grade': 'A'}
+
+--- Student Record Manager ---
+1. Add Student
+2. Search Student
+3. Update Student
+4. Display All Students
+5. Exit
+Enter your choice: 2
+Enter Student ID to search: sc12435
+Student not found!
+
+--- Student Record Manager ---
+1. Add Student
+2. Search Student
+3. Update Student
+4. Display All Students
+5. Exit
+Enter your choice: 1
+Enter Student ID: sc12435
+Enter Name: Dewaka
+Enter Age: 25
+Enter Grade: A
+Student added successfully!
+
+--- Student Record Manager ---
+1. Add Student
+2. Search Student
+3. Update Student
+4. Display All Students
+5. Exit
+Enter your choice: 3
+Enter Student ID to update: sc12453
+Student not found!
+
+--- Student Record Manager ---
+1. Add Student
+2. Search Student
+3. Update Student
+4. Display All Students
+5. Exit
+Enter your choice: 3
+Enter Student ID to update: sc12435
+Current Record: {'name': 'Dewaka', 'age': '25', 'grade': 'A'}
+Enter new Name (leave blank to keep same):
+Enter new Age (leave blank to keep same):
+Enter new Grade (leave blank to keep same): A+
+Student updated successfully!
+
+--- Student Record Manager ---
+1. Add Student
+2. Search Student
+3. Update Student
+4. Display All Students
+5. Exit
+Enter your choice: 2
+Enter Student ID to search: sc12435
+🎓 Student Found: {'name': ' ', 'age': '25', 'grade': 'A+'}
+
+--- Student Record Manager ---
+1. Add Student
+2. Search Student
+3. Update Student
+4. Display All Students
+5. Exit
+Enter your choice: 4
+All Student Records:
+ID: sc12415, Name: irosha, Age: 25, Grade: A
+ID: sc12435, Name:  , Age: 25, Grade: A+
+
+--- Student Record Manager ---
+1. Add Student
+2. Search Student
+3. Update Student
+4. Display All Students
+5. Exit
+Enter your choice: 3
+Enter Student ID to update: sc12435
+Current Record: {'name': ' ', 'age': '25', 'grade': 'A+'}
+Enter new Name (leave blank to keep same): Dewaka
+Enter new Age (leave blank to keep same):
+Enter new Grade (leave blank to keep same):
+Student updated successfully!
+
+--- Student Record Manager ---
+1. Add Student
+2. Search Student
+3. Update Student
+4. Display All Students
+5. Exit
+Enter your choice: 4
+All Student Records:
+ID: sc12415, Name: irosha, Age: 25, Grade: A
+ID: sc12435, Name: Dewaka, Age: 25, Grade: A+
+
+--- Student Record Manager ---
+1. Add Student
+2. Search Student
+3. Update Student
+4. Display All Students
+5. Exit
+Enter your choice: 5
+👋 Exiting... Goodbye!
